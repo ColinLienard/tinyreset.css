@@ -1,0 +1,21 @@
+{
+  "name": "tinyreset.css",
+  "version": "0.0.0",
+  "description": "🌊 Simple and effective css reset",
+  "main": "tinyreset.css",
+  "scripts": {
+    "build": "postcss tinyreset.css > tinyreset.min.css"
+  },
+  "keywords": [
+    "css",
+    "reset",
+    "tiny"
+  ],
+  "repository": "https://github.com/ColinLienard/tinyreset.css",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^5.0.12",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2"
+  }
+}
