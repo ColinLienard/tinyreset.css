@@ -1,0 +1,83 @@
+/*
+  tinyreset.css • v0.0.0
+  MIT License
+  https://github.com/ColinLienard/tinyreset.css
+*/
+
+/* Remove default margin and padding globally */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing `border-box` for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  Body takes at least all the space
+  Font set to default
+*/
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  line-height: 1;
+}
+
+/* Regular font weight */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/* Makes links generic */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Makes buttons and inputs generic */
+button,
+input,
+select,
+textarea {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Makes the cursor `pointer` for all buttons */
+button,
+input[type=button],
+input[type=submit] {
+  cursor: pointer;
+}
+
+/* Makes images easier to work with */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove list style */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Makes bold elements generic */
+b,
+strong {
+  font-weight: inherit;
+}
