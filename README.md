@@ -1,6 +1,6 @@
 # 🌊 tinyreset.css
 
-[![MIT License](https://img.shields.io/github/license/ColinLienard/tinyreset.css)](LICENSE) ![Minified file size](https://img.shields.io/github/languages/code-size/ColinLienard/tinyreset.css)
+[![MIT License](https://img.shields.io/github/license/ColinLienard/tinyreset.css)](LICENSE) ![Minified size](https://img.shields.io/github/size/ColinLienard/tinyreset.css/tinyreset.min.css?label=minified%20size)
 
 A simple, tiny, modern css reset.
 
