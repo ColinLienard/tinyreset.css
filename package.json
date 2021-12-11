@@ -1,15 +1,16 @@
 {
   "name": "tinyreset.css",
   "version": "0.0.0",
-  "description": "🌊 Simple and effective css reset",
-  "main": "tinyreset.css",
+  "description": "Simple and effective css reset",
+  "main": "tinyreset.min.css",
   "scripts": {
-    "build": "postcss tinyreset.css > tinyreset.min.css"
+    "minify": "postcss tinyreset.css > tinyreset.min.css"
   },
   "keywords": [
     "css",
     "reset",
-    "tiny"
+    "tiny",
+    "minified"
   ],
   "repository": "https://github.com/ColinLienard/tinyreset.css",
   "license": "MIT",
