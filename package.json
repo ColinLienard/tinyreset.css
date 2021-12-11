@@ -1,6 +1,6 @@
 {
   "name": "tinyreset.css",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple and effective css reset",
   "main": "tinyreset.min.css",
   "scripts": {

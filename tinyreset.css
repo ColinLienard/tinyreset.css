@@ -1,16 +1,16 @@
 /*
-  tinyreset.css • v0.0.0
+  tinyreset.css • v1.0.0
   MIT License
   https://github.com/ColinLienard/tinyreset.css
 */
 
-/* Remove default margin and padding globally */
+/* Remove margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Box sizing `border-box` for all elements */
+/* Apply better box-sizing for all elements */
 *,
 *::before,
 *::after {
@@ -18,16 +18,18 @@
 }
 
 /*
-  Body takes at least all the space
-  Font set to default
+  1. Body takes at least all the space in the screen
+  2. Set fonts to default
 */
 body {
+  /* 1 */
   min-height: 100vh;
+  /* 2 */
   font-size: 100%;
   line-height: 1;
 }
 
-/* Regular font weight */
+/* Apply regular font weight on headings */
 h1,
 h2,
 h3,
@@ -37,34 +39,37 @@ h6 {
   font-weight: normal;
 }
 
-/* Makes links generic */
+/* Apply regular styles for links */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* Makes buttons and inputs generic */
+/* Apply regular styles for buttons and inputs */
 button,
 input,
 select,
 textarea {
-  border: none;
-  outline: none;
   background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: inherit;
   font-family: inherit;
   font-size: inherit;
-  color: inherit;
+  outline: none;
 }
 
-/* Makes the cursor `pointer` for all buttons */
+/* Apply the pointer cursor for all buttons */
 button,
 input[type=button],
+input[type=reset],
 input[type=submit] {
   cursor: pointer;
 }
 
-/* Makes images easier to work with */
-img {
+/* Make images and videos easier to work with */
+img,
+video {
   display: block;
   max-width: 100%;
   height: auto;
@@ -76,8 +81,7 @@ ul {
   list-style: none;
 }
 
-/* Makes bold elements generic */
-b,
+/* Apply regular styles for strong */
 strong {
   font-weight: inherit;
 }
