@@ -1,8 +1,14 @@
+<div align="center">
+
 # 🌊 tinyreset.css
 
-[![MIT License](https://img.shields.io/github/license/ColinLienard/tinyreset.css)](LICENSE) ![Minified size](https://img.shields.io/github/size/ColinLienard/tinyreset.css/tinyreset.min.css?label=minified%20size)
+![Minified size](https://img.shields.io/github/size/ColinLienard/tinyreset.css/tinyreset.min.css?label=minified%20size) [![MIT License](https://img.shields.io/github/license/ColinLienard/tinyreset.css)](LICENSE)
 
 A simple, tiny, modern css reset.
+
+</div>
+
+---
 
 ## ✂️ Copy
 
