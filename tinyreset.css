@@ -1,5 +1,5 @@
 /*
-  * tinyreset.css • v1.0.1
+  * tinyreset.css • v1.1.0
   * MIT License
   * https://github.com/ColinLienard/tinyreset.css
 */
@@ -10,16 +10,21 @@
   padding: 0;
 }
 
-/* Apply better box-sizing for all elements */
+/* Apply prefered box-sizing for all elements */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+/* Apply smooth scrolling when clicking on links */
+html {
+  scroll-behavior: smooth;
+}
+
 /*
-  1. Body takes at least all the space in the screen
-  2. Set fonts to default
+  * 1. Body takes at least all the space in the screen
+  * 2. Set fonts to default
 */
 body {
   /* 1 */
@@ -59,9 +64,9 @@ textarea {
   outline: none;
 }
 
-/* Apply regular text alignment for buttons */
-button {
-  text-align: start;
+/* Apply only vertical resize on textarea */
+textarea {
+  resize: vertical;
 }
 
 /* Apply the pointer cursor for all buttons */
@@ -80,8 +85,12 @@ video {
   height: auto;
 }
 
+/* Make svg easier to work with */
+svg {
+  max-width: 100%;
+}
+
 /* Remove list style */
-ol,
 ul {
   list-style: none;
 }
