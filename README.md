@@ -21,7 +21,8 @@ A simple, tiny, modern css reset.
 * Apply `box-sizing: border-box` for all elements.
 * Reset `font-size` and `line-heigts` on fonts.
 * Reset `font-weight` on headings and strong.
-* Apply regular styles for links, buttons and inputs.
+* Optimize rendering speed of texts.
+* Apply regular styles for anchors, buttons and inputs.
 * Apply `cursor: pointer` on all buttons.
 * Make images, videos and svgs easier to work with.
 * Remove `list-style` on unorganized lists.

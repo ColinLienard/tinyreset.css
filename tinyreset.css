@@ -1,5 +1,5 @@
 /*
-  * tinyreset.css • v1.1.0
+  * tinyreset.css • v1.2.0
   * MIT License
   * https://github.com/ColinLienard/tinyreset.css
 */
@@ -17,7 +17,7 @@
   box-sizing: border-box;
 }
 
-/* Apply smooth scrolling when clicking on links */
+/* Apply smooth scrolling when clicking on anchors */
 html {
   scroll-behavior: smooth;
 }
@@ -25,13 +25,18 @@ html {
 /*
   * 1. Body takes at least all the space in the screen
   * 2. Set fonts to default
+  * 3. Optimize rendering speed of texts
 */
 body {
   /* 1 */
   min-height: 100vh;
+
   /* 2 */
   font-size: 100%;
   line-height: 1;
+
+  /* 3 */
+  text-rendering: optimizeSpeed;
 }
 
 /* Apply regular font weight on headings */
@@ -44,7 +49,7 @@ h6 {
   font-weight: normal;
 }
 
-/* Apply regular styles for links */
+/* Apply regular styles for anchors */
 a {
   color: inherit;
   text-decoration: none;
@@ -71,22 +76,17 @@ textarea {
 
 /* Apply the pointer cursor for all buttons */
 button,
-input[type=button],
-input[type=reset],
-input[type=submit] {
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   cursor: pointer;
 }
 
-/* Make images and videos easier to work with */
+/* Make images, videos and svgs easier to work with */
 img,
-video {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* Make svg easier to work with */
+video,
 svg {
+  display: block;
   max-width: 100%;
 }
 
